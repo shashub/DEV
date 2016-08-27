@@ -1,0 +1,3430 @@
+{
+    "constructors": [],
+    "externalReferences": [],
+    "id": "01p50000003saoWAAQ",
+    "innerClasses": [
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 21
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DataSet_element",
+                    "parameters": [
+                        {
+                            "name": "responseNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "DataSet_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 19
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 20
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 18
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DataSet_element",
+                "references": [],
+                "type": "DataSet_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 21
+                    },
+                    "modifiers": [],
+                    "name": "responseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 22
+                    },
+                    "modifiers": [],
+                    "name": "nodesParsed",
+                    "references": [],
+                    "type": "Set"
+                }
+            ]
+        },
+        {
+            "constructors": [],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 35
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuote",
+                    "parameters": [
+                        {
+                            "name": "StockSymbol",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Decimal",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 58
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuote",
+                    "parameters": [
+                        {
+                            "name": "StockSymbol",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "QuoteData",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 75,
+                        "line": 81
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSet",
+                    "parameters": [
+                        {
+                            "name": "StockSymbols",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 23,
+                        "line": 104
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "populateDoc",
+                    "parameters": [
+                        {
+                            "name": "doc",
+                            "type": "Document"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "XmlNode",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 119
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "AddHeader",
+                    "parameters": [
+                        {
+                            "name": "header",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 122
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuote_Http",
+                    "parameters": [
+                        {
+                            "name": "StockSymbol",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "Decimal",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 148
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuote_Http",
+                    "parameters": [
+                        {
+                            "name": "StockSymbol",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "QuoteData",
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 75,
+                        "line": 174
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSet_Http",
+                    "parameters": [
+                        {
+                            "name": "StockSymbols",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element",
+                    "type": null
+                }
+            ],
+            "name": "DelayedStockQuoteSoap",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 26
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "endpoint_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 27
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "inputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 28
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "outputHttpHeaders_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 29
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertName_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 30
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCert_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 31
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "clientCertPasswd_x",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 32
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "timeout_x",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 33
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ns_map_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 25
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "DelayedStockQuoteSoap",
+                "references": [],
+                "type": "DelayedStockQuoteSoap"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 35
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 35
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 36
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetQuickQuote_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 37
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetQuickQuoteResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 40
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 58
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 66,
+                        "line": 58
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 59
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetQuote_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 60
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetQuoteResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 63
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 98,
+                        "line": 81
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbols",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 118,
+                        "line": 81
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 82
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetQuoteDataSet_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 83
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetQuoteDataSetResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 60,
+                        "line": 86
+                    },
+                    "modifiers": [],
+                    "name": "response_map_x",
+                    "references": [],
+                    "type": "Map"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 48,
+                        "line": 104
+                    },
+                    "modifiers": [],
+                    "name": "doc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 105
+                    },
+                    "modifiers": [],
+                    "name": "env",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 106
+                    },
+                    "modifiers": [],
+                    "name": "xsi",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 11,
+                        "line": 107
+                    },
+                    "modifiers": [],
+                    "name": "xsd",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 109
+                    },
+                    "modifiers": [],
+                    "name": "envelope",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 112
+                    },
+                    "modifiers": [],
+                    "name": "header",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 115
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 38,
+                        "line": 119
+                    },
+                    "modifiers": [],
+                    "name": "header",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 44,
+                        "line": 122
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 63,
+                        "line": 122
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 123
+                    },
+                    "modifiers": [],
+                    "name": "doc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 124
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 125
+                    },
+                    "modifiers": [],
+                    "name": "methodNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 37,
+                        "line": 126
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetQuickQuote_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 129
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 136
+                    },
+                    "modifiers": [],
+                    "name": "http",
+                    "references": [],
+                    "type": "Http"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 137
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 139
+                    },
+                    "modifiers": [],
+                    "name": "responseDoc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 140
+                    },
+                    "modifiers": [],
+                    "name": "rootNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 141
+                    },
+                    "modifiers": [],
+                    "name": "bodyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 142
+                    },
+                    "modifiers": [],
+                    "name": "GetQuickQuoteResponseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 45,
+                        "line": 144
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetQuickQuoteResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 148
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 71,
+                        "line": 148
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 149
+                    },
+                    "modifiers": [],
+                    "name": "doc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 150
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 151
+                    },
+                    "modifiers": [],
+                    "name": "methodNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 152
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetQuote_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 155
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 162
+                    },
+                    "modifiers": [],
+                    "name": "http",
+                    "references": [],
+                    "type": "Http"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 163
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 165
+                    },
+                    "modifiers": [],
+                    "name": "responseDoc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 166
+                    },
+                    "modifiers": [],
+                    "name": "rootNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 167
+                    },
+                    "modifiers": [],
+                    "name": "bodyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 168
+                    },
+                    "modifiers": [],
+                    "name": "GetQuoteResponseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 40,
+                        "line": 170
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetQuoteResponse_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 103,
+                        "line": 174
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbols",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 123,
+                        "line": 174
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 175
+                    },
+                    "modifiers": [],
+                    "name": "doc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 176
+                    },
+                    "modifiers": [],
+                    "name": "body",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 177
+                    },
+                    "modifiers": [],
+                    "name": "methodNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 178
+                    },
+                    "modifiers": [],
+                    "name": "request_x",
+                    "references": [],
+                    "type": "GetQuoteDataSet_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 181
+                    },
+                    "modifiers": [],
+                    "name": "req",
+                    "references": [],
+                    "type": "HttpRequest"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 9,
+                        "line": 188
+                    },
+                    "modifiers": [],
+                    "name": "http",
+                    "references": [],
+                    "type": "Http"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 189
+                    },
+                    "modifiers": [],
+                    "name": "res",
+                    "references": [],
+                    "type": "HttpResponse"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 191
+                    },
+                    "modifiers": [],
+                    "name": "responseDoc",
+                    "references": [],
+                    "type": "Document"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 192
+                    },
+                    "modifiers": [],
+                    "name": "rootNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 193
+                    },
+                    "modifiers": [],
+                    "name": "bodyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 194
+                    },
+                    "modifiers": [],
+                    "name": "GetQuoteDataSetResponseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 196
+                    },
+                    "modifiers": [],
+                    "name": "response_x",
+                    "references": [],
+                    "type": "GetQuoteDataSetResponse_element"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 207
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuote_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 209
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuote_element",
+                    "parameters": [
+                        {
+                            "name": "StockSymbol",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 213
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "populateXmlNode",
+                    "parameters": [
+                        {
+                            "name": "outerNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "GetQuickQuote_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 201
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 202
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 203
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StockSymbol_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 204
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "LicenseKey_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 205
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 206
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 200
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuickQuote_element",
+                "references": [],
+                "type": "GetQuickQuote_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 39,
+                        "line": 209
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 58,
+                        "line": 209
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 213
+                    },
+                    "modifiers": [],
+                    "name": "outerNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 216
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbolNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 218
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKeyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 227
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuoteResponse_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 229
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuoteResponse_element",
+                    "parameters": [
+                        {
+                            "name": "responseNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetQuickQuoteResponse_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 223
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuickQuoteResult",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 224
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "GetQuickQuoteResult_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 225
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 226
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 222
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuickQuoteResponse_element",
+                "references": [],
+                "type": "GetQuickQuoteResponse_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 52,
+                        "line": 229
+                    },
+                    "modifiers": [],
+                    "name": "responseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 230
+                    },
+                    "modifiers": [],
+                    "name": "nodesParsed",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 232
+                    },
+                    "modifiers": [],
+                    "name": "GetQuickQuoteResultNode",
+                    "references": [],
+                    "type": "XmlNode"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 245
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuote_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 247
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuote_element",
+                    "parameters": [
+                        {
+                            "name": "StockSymbol",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 251
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "populateXmlNode",
+                    "parameters": [
+                        {
+                            "name": "outerNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "GetQuote_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 239
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 240
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 241
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StockSymbol_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 242
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "LicenseKey_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 243
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 244
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 238
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuote_element",
+                "references": [],
+                "type": "GetQuote_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 34,
+                        "line": 247
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 53,
+                        "line": 247
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 251
+                    },
+                    "modifiers": [],
+                    "name": "outerNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 254
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbolNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 256
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKeyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 267
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSet_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 269
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSet_element",
+                    "parameters": [
+                        {
+                            "name": "StockSymbols",
+                            "type": "String"
+                        },
+                        {
+                            "name": "LicenseKey",
+                            "type": "String"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 273
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "populateXmlNode",
+                    "parameters": [
+                        {
+                            "name": "outerNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "GetQuoteDataSet_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 261
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StockSymbols",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 262
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 263
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StockSymbols_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 264
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "LicenseKey_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 265
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 266
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 260
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuoteDataSet_element",
+                "references": [],
+                "type": "GetQuoteDataSet_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 41,
+                        "line": 269
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbols",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 61,
+                        "line": 269
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKey",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 273
+                    },
+                    "modifiers": [],
+                    "name": "outerNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 276
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbolsNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 278
+                    },
+                    "modifiers": [],
+                    "name": "LicenseKeyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 287
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSetResponse_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 289
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSetResponse_element",
+                    "parameters": [
+                        {
+                            "name": "responseNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetQuoteDataSetResponse_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 75,
+                        "line": 283
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSetResult",
+                    "references": [],
+                    "type": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 284
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "GetQuoteDataSetResult_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 285
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 286
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 282
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuoteDataSetResponse_element",
+                "references": [],
+                "type": "GetQuoteDataSetResponse_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 54,
+                        "line": 289
+                    },
+                    "modifiers": [],
+                    "name": "responseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 290
+                    },
+                    "modifiers": [],
+                    "name": "nodesParsed",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 292
+                    },
+                    "modifiers": [],
+                    "name": "GetQuoteDataSetResultNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 70,
+                        "line": 296
+                    },
+                    "modifiers": [],
+                    "name": "GetQuoteDataSetResultObj",
+                    "references": [],
+                    "type": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 311
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 313
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element",
+                    "parameters": [
+                        {
+                            "name": "responseNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 324
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "populateXmlNode",
+                    "parameters": [
+                        {
+                            "name": "outerNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 28,
+                        "line": 307
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "anyElement",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 308
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "anyElement_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 309
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 310
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 306
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element",
+                "references": [],
+                "type": "GetQuoteDataSetResponse_GetQuoteDataSetResult_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 76,
+                        "line": 313
+                    },
+                    "modifiers": [],
+                    "name": "responseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 314
+                    },
+                    "modifiers": [],
+                    "name": "nodesParsed",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 317
+                    },
+                    "modifiers": [],
+                    "name": "childNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 324
+                    },
+                    "modifiers": [],
+                    "name": "outerNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 22,
+                        "line": 326
+                    },
+                    "modifiers": [],
+                    "name": "anyElementObj",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 327
+                    },
+                    "modifiers": [],
+                    "name": "anyNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 29,
+                        "line": 328
+                    },
+                    "modifiers": [],
+                    "name": "anyElementNode",
+                    "references": [],
+                    "type": "XmlNode"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 337
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteResponse_element",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 339
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteResponse_element",
+                    "parameters": [
+                        {
+                            "name": "responseNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [],
+            "name": "GetQuoteResponse_element",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 31,
+                        "line": 333
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "GetQuoteResult",
+                    "references": [],
+                    "type": "QuoteData"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 334
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "GetQuoteResult_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 335
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 336
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 332
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "GetQuoteResponse_element",
+                "references": [],
+                "type": "GetQuoteResponse_element"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 47,
+                        "line": 339
+                    },
+                    "modifiers": [],
+                    "name": "responseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 340
+                    },
+                    "modifiers": [],
+                    "name": "nodesParsed",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 342
+                    },
+                    "modifiers": [],
+                    "name": "GetQuoteResultNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 26,
+                        "line": 346
+                    },
+                    "modifiers": [],
+                    "name": "GetQuoteResultObj",
+                    "references": [],
+                    "type": "QuoteData"
+                }
+            ]
+        },
+        {
+            "constructors": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 386
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "QuoteData",
+                    "parameters": [],
+                    "references": [],
+                    "type": null
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 10,
+                        "line": 388
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "QuoteData",
+                    "parameters": [
+                        {
+                            "name": "responseNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "type": null
+                }
+            ],
+            "externalReferences": [],
+            "id": null,
+            "innerClasses": [],
+            "interfaces": [],
+            "key": null,
+            "methods": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 15,
+                        "line": 451
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "populateXmlNode",
+                    "parameters": [
+                        {
+                            "name": "outerNode",
+                            "type": "XmlNode"
+                        }
+                    ],
+                    "references": [],
+                    "returnType": "void",
+                    "type": null
+                }
+            ],
+            "name": "QuoteData",
+            "namespace": null,
+            "parentClass": "",
+            "properties": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 354
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StockSymbol",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 355
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LastTradeAmount",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 19,
+                        "line": 356
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "LastTradeDateTime",
+                    "references": [],
+                    "type": "Datetime"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 357
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StockChange",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 358
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "OpenAmount",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 359
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DayHigh",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 360
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "DayLow",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 361
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "StockVolume",
+                    "references": [],
+                    "type": "Integer"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 362
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "PrevCls",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 363
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "ChangePercent",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 364
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "FiftyTwoWeekRange",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 365
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "EarnPerShare",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 366
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "PE",
+                    "references": [],
+                    "type": "Decimal"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 17,
+                        "line": 367
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "CompanyName",
+                    "references": [],
+                    "type": "String"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 18,
+                        "line": 368
+                    },
+                    "modifiers": [
+                        "public"
+                    ],
+                    "name": "QuoteError",
+                    "references": [],
+                    "type": "Boolean"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 369
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StockSymbol_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 370
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "LastTradeAmount_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 371
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "LastTradeDateTime_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 372
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StockChange_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 373
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "OpenAmount_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 374
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "DayHigh_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 375
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "DayLow_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 376
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "StockVolume_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 377
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "PrevCls_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 378
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "ChangePercent_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 379
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "FiftyTwoWeekRange_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 380
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "EarnPerShare_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 381
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "PE_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 382
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "CompanyName_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 383
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "QuoteError_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 384
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "apex_schema_type_info",
+                    "references": [],
+                    "type": "LIST"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 20,
+                        "line": 385
+                    },
+                    "modifiers": [
+                        "private"
+                    ],
+                    "name": "field_order_type_info",
+                    "references": [],
+                    "type": "LIST"
+                }
+            ],
+            "tableDeclaration": {
+                "annotations": [],
+                "location": {
+                    "column": 15,
+                    "line": 353
+                },
+                "modifiers": [
+                    "public"
+                ],
+                "name": "QuoteData",
+                "references": [],
+                "type": "QuoteData"
+            },
+            "variables": [
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 32,
+                        "line": 388
+                    },
+                    "modifiers": [],
+                    "name": "responseNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 21,
+                        "line": 389
+                    },
+                    "modifiers": [],
+                    "name": "nodesParsed",
+                    "references": [],
+                    "type": "Set"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 390
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbolNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 394
+                    },
+                    "modifiers": [],
+                    "name": "LastTradeAmountNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 398
+                    },
+                    "modifiers": [],
+                    "name": "LastTradeDateTimeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 402
+                    },
+                    "modifiers": [],
+                    "name": "StockChangeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 406
+                    },
+                    "modifiers": [],
+                    "name": "OpenAmountNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 410
+                    },
+                    "modifiers": [],
+                    "name": "DayHighNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 414
+                    },
+                    "modifiers": [],
+                    "name": "DayLowNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 418
+                    },
+                    "modifiers": [],
+                    "name": "StockVolumeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 422
+                    },
+                    "modifiers": [],
+                    "name": "PrevClsNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 426
+                    },
+                    "modifiers": [],
+                    "name": "ChangePercentNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 430
+                    },
+                    "modifiers": [],
+                    "name": "FiftyTwoWeekRangeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 434
+                    },
+                    "modifiers": [],
+                    "name": "EarnPerShareNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 438
+                    },
+                    "modifiers": [],
+                    "name": "PENode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 442
+                    },
+                    "modifiers": [],
+                    "name": "CompanyNameNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 446
+                    },
+                    "modifiers": [],
+                    "name": "QuoteErrorNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 43,
+                        "line": 451
+                    },
+                    "modifiers": [],
+                    "name": "outerNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 452
+                    },
+                    "modifiers": [],
+                    "name": "StockSymbolNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 454
+                    },
+                    "modifiers": [],
+                    "name": "LastTradeAmountNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 458
+                    },
+                    "modifiers": [],
+                    "name": "LastTradeDateTimeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 462
+                    },
+                    "modifiers": [],
+                    "name": "StockChangeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 466
+                    },
+                    "modifiers": [],
+                    "name": "OpenAmountNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 470
+                    },
+                    "modifiers": [],
+                    "name": "DayHighNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 474
+                    },
+                    "modifiers": [],
+                    "name": "DayLowNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 478
+                    },
+                    "modifiers": [],
+                    "name": "StockVolumeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 482
+                    },
+                    "modifiers": [],
+                    "name": "PrevClsNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 486
+                    },
+                    "modifiers": [],
+                    "name": "ChangePercentNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 488
+                    },
+                    "modifiers": [],
+                    "name": "FiftyTwoWeekRangeNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 490
+                    },
+                    "modifiers": [],
+                    "name": "EarnPerShareNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 494
+                    },
+                    "modifiers": [],
+                    "name": "PENode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 498
+                    },
+                    "modifiers": [],
+                    "name": "CompanyNameNode",
+                    "references": [],
+                    "type": "XmlNode"
+                },
+                {
+                    "annotations": [],
+                    "location": {
+                        "column": 16,
+                        "line": 500
+                    },
+                    "modifiers": [],
+                    "name": "QuoteErrorNode",
+                    "references": [],
+                    "type": "XmlNode"
+                }
+            ]
+        }
+    ],
+    "interfaces": [],
+    "key": "01p50000003saoWAAQ",
+    "methods": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 25,
+                "line": 7
+            },
+            "modifiers": [
+                "static",
+                "public"
+            ],
+            "name": "parseDateTime",
+            "parameters": [
+                {
+                    "name": "nodeText",
+                    "type": "String"
+                }
+            ],
+            "references": [],
+            "returnType": "Datetime",
+            "type": null
+        }
+    ],
+    "name": "wsCdyneCom",
+    "namespace": null,
+    "parentClass": "",
+    "properties": [],
+    "tableDeclaration": {
+        "annotations": [],
+        "location": {
+            "column": 14,
+            "line": 6
+        },
+        "modifiers": [
+            "public"
+        ],
+        "name": "wsCdyneCom",
+        "references": [],
+        "type": "wsCdyneCom"
+    },
+    "variables": [
+        {
+            "annotations": [],
+            "location": {
+                "column": 46,
+                "line": 7
+            },
+            "modifiers": [],
+            "name": "nodeText",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 11,
+                "line": 8
+            },
+            "modifiers": [],
+            "name": "iso8601",
+            "references": [],
+            "type": "String"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 15,
+                "line": 9
+            },
+            "modifiers": [],
+            "name": "parser",
+            "references": [],
+            "type": "JSONParser"
+        },
+        {
+            "annotations": [],
+            "location": {
+                "column": 13,
+                "line": 12
+            },
+            "modifiers": [],
+            "name": "dt",
+            "references": [],
+            "type": "Datetime"
+        }
+    ]
+}

@@ -1,0 +1,27 @@
+{
+    "projectName": "Test",
+    "username": "shas_19@yahoo.com",
+    "id": "a4741040-6b34-11e6-85bb-23a316400b68",
+    "namespace": "",
+    "environment": "developer",
+    "loginUrl": "https://login.salesforce.com/",
+    "workspace": "//Users//Shas//Documents//Workspaces//DEV",
+    "subscription": [
+        "ApexClass",
+        "ApexComponent",
+        "ApexPage",
+        "ApexTrigger",
+        "AppMenu",
+        "CustomApplication",
+        "CustomApplicationComponent",
+        "CustomLabels",
+        "CustomMetadata",
+        "CustomObject",
+        "CustomTab",
+        "Dashboard",
+        "HomePageComponent",
+        "HomePageLayout",
+        "Layout",
+        "StaticResource"
+    ]
+}
