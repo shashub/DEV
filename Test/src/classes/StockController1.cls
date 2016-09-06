@@ -8,7 +8,7 @@ public static string ServergetQuote(string symbol) {
         Account account = [SELECT Id FROM Account WHERE name  = 'Technology Stocks'];
         Contact contact = [SELECT Id FROM Contact WHERE lastname  = 'Sirikonda'];
         Opportunity a = new Opportunity();
-				//Intialize Opportunig object
+				//Intialize Opportunity Object
         a.AccountId  = account.Id ;
         //a.ContactId = contact.Id;
         a.StageName = 'Prospecting';
