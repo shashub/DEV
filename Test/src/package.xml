@@ -16,6 +16,7 @@
         <members>*</members>
         <name>ApexTrigger</name>
     </types>
+    <!--
     <types>
         <members>*</members>
         <name>AppMenu</name>
@@ -23,7 +24,7 @@
     <types>
         <members>*</members>
         <name>CustomApplication</name>
-    </types>
+    </types>-->
     <types>
         <members>Account</members>
         <members>AccountCleanInfo</members>
@@ -83,10 +84,11 @@
         <members>*</members>
         <name>HomePageLayout</name>
     </types>
+    <!--
     <types>
         <members>*</members>
         <name>Layout</name>
-    </types>
+    </types>-->
     <types>
         <members>*</members>
         <name>StaticResource</name>
