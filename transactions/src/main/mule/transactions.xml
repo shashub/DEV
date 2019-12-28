@@ -14,6 +14,6 @@ http://www.mulesoft.org/schema/mule/salesforce http://www.mulesoft.org/schema/mu
 		<set-payload value='#[%dw 2.0
 output text/plain
 ---
-"Hello World"]' doc:name="Set Payload" doc:id="7a129ffd-db90-42ba-b186-badd4a505c3d" />
+"Hello World Modified"]' doc:name="Set Payload" doc:id="7a129ffd-db90-42ba-b186-badd4a505c3d" />
 	</flow>
 </mule>
